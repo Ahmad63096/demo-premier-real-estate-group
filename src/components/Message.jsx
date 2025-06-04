@@ -130,6 +130,7 @@ function Message() {
                 id: getUniqueMessageId(),
                 buttons: [
                   "Sell My Property",
+                  "Buy a Property",
                   "Get Cash Offer",
                   "As-Is Home Sale",
                   "Join Investor List",
@@ -154,6 +155,7 @@ function Message() {
     startInactivityTimer();
     const buttonResponses = {
       "Sell My Property": "I want to know about Sell My Property.",
+      "Buy a Property": "I want to know about Buy a Property.",
       "Get Cash Offer": "I want to know about Get Cash Offer.",
       "As-Is Home Sale": "I want to know about As-Is Home Sale.",
       "Join Investor List": "I want to know about Join Investor List.",
